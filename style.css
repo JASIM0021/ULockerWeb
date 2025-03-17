@@ -3127,12 +3127,17 @@ body.apps-craft-v7 .apps-craft-position-rel .layer img {
 /*===================================================================
 		5. ULocker Control Feature Section 
 ===================================================================================*/
+@media (min-width: 1200px) {
+  .container {
+      width: 1400px;
+  }
+}
 
 .apps-craft-feature-section {
   background-color: #f4f4f4;
 }
 .apps-craft-single-feature {
-  width: 50%;
+  /* width: 50%; */
   float: left;
   padding: 15px;
   text-align: center;
